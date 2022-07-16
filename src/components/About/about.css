@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  height: 50vh;
+}
+
+.content-left {
+  flex: 1;
+}
+
+.content-right {
+  flex: 2;
+}
+
+#about {
+  text-decoration: underline;
+}
+
+.wrap-content {
+  padding: 50px;
+}
+
+.list-framework {
+  font-size: 18px;
+}

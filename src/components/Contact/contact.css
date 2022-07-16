@@ -1,0 +1,14 @@
+.contact {
+  height: 50vh;
+  padding: 50px;
+}
+
+#contact {
+  text-decoration: underline;
+}
+
+.message-form {
+  margin: 20px;
+  justify-content: center;
+  padding: 50px;
+}
