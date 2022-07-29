@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import myPic from "./self.jpg";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <div className="about">
         {/* photo */}
         <div>
-          <h1> Insert Photo here!</h1>
+          <img src={myPic} alt="selfie"></img>
         </div>
 
         {/* Bio */}
