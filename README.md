@@ -38,7 +38,3 @@ You may also see any lint errors in the console.
 <li> WHEN I view the footer
 <li> THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
    </ul></details>
-  
-<details><summary> Video to see how application works: </summary>
-  https://drive.google.com/file/d/1u2-oRjHZeAjPJXeEm4c8pBosS400RLxZ/view
-  </details>
