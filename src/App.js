@@ -5,7 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Portfolio from "./components/Portfolio/projectCards";
+import ProjectCards from "./components/Portfolio";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <Navigation />
 
         <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<ProjectCards />} />
           {/* <Route path="/Resume" element={<Resume />} /> */}
           <Route path="/" element={<About />} />
         </Routes>

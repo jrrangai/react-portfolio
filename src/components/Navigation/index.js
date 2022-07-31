@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -11,22 +11,22 @@ function Navigation() {
           <div className="navbar-end">
             <div className="navbar-item">
               <Link className="category" to="about" offset={-100}>
-                <a href="#about">About me</a>
+                About me
               </Link>
             </div>
             <div className="navbar-item">
-              <Link className="category" to="portfolio" offset={-100}>
-                <a href="#portfolio">Portfolio</a>
+              <Link className="category" to="/portfolio" offset={-100}>
+                Portfolio
               </Link>
             </div>
             <div className="navbar-item">
               <Link className="category" to="contact" offset={-100}>
-                <a href="#contact">Contact</a>
+                Contact
               </Link>
             </div>
             <div className="navbar-item">
               <Link className="category" to="resume" offset={-100}>
-                <a href="#resume">Resume</a>
+                Resume
               </Link>
             </div>
           </div>
