@@ -38,3 +38,7 @@ You may also see any lint errors in the console.
 <li> WHEN I view the footer
 <li> THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
    </ul></details>
+<details><summary> Deployed Link </summary>
+https://impossible-whopper.herokuapp.com/
+
+</details>
