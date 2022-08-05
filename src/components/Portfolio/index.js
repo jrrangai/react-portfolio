@@ -32,9 +32,9 @@ const ProjectCards = (props) => {
       deploy: "https://fierce-mountain-22652.herokuapp.com/",
     },
     {
-      name: "Gather the Magic (Still in Development)",
+      name: "Gather the Magic",
       github: "https://github.com/patrickarcher414/proj-3",
-      deploy: "https://github.com/patrickarcher414/proj-3",
+      deploy: "https://github.com/patrickarcher414/gather-the-magic",
     },
   ];
 
